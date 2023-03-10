@@ -8,7 +8,7 @@ namespace APICalculaJuros.Controllers
 
     public class ShowMeTheCodeController : ControllerBase
     {
-        private string urlGitHub = "http://localhost:5090/api/taxas";
+        private string urlGitHub = "https://github.com/MayCris/DesafioTecnico";
 
         [HttpGet()]
         public string ShowMeTheCode()
